@@ -1,0 +1,6 @@
+{
+	"registro": {{InputRegistroNovaEmpresa.text}},
+	"nome": {{InputNomeNovaEmpresa.text}},
+	"cnpj_cpf": {{util.tratarComoNumero(InputCnpjCpfNovaEmpresa.text)}},
+	"erp": {{RadNovaEmpErp.selectedOptionValue}},
+}

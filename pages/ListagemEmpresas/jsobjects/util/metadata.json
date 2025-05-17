@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "67faa44513b8b524c099f316_73c39f7a-29dd-47d2-8328-3c3ea45550ea",
+  "id": "ListagemEmpresas_util",
+  "unpublishedCollection": {
+    "name": "util",
+    "pageId": "ListagemEmpresas",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "mascaras",
+        "value": "{\n  cpf: ['XXX.XXX.XXX-XX'],\n  cnpj: ['XX.XXX.XXX/XXXX-XX'],\n  cpfCnpj: ['XXX.XXX.XXX-XX', 'XX.XXX.XXX/XXXX-XX'],\n  telefone: ['(XX) XXXXX-XXXX'],\n  cep: ['XXXXX-XXX']\n}"
+      },
+      {
+        "name": "formatosDataHora",
+        "value": "{\n  completo: 'YYYY-MM-DD HH:mm:ss',\n  dataSimples: 'YYYY-MM-DD',\n  dataBR: 'DD/MM/YYYY',\n  hora: 'HH:mm:ss',\n  horaSemSegundos: 'HH:mm:00',\n  iso: 'YYYY-MM-DDTHH:mm:ssZ',\n  longo: 'MMMM Do YYYY, h:mm:ss a',\n  diaHoraAbreviado: 'ddd, hA',\n  dataComHifen: 'DD-MM-YYYY',\n  dataHoraCurta: 'DD/MM/YY HH:mm',\n  dataHoraCompletaBR: 'DD/MM/YYYY HH:mm:ss'\n}"
+      }
+    ]
+  }
+}

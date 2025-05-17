@@ -1,0 +1,5 @@
+{
+	"empresa_id": {{TabListagemEmpresas.triggeredRow.id}},
+	"mc_usuario": {{InputMcUsuarioConfig.text}},
+	"mc_senha": {{InputMcSenhaConfig.text}}
+}

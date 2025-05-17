@@ -1,0 +1,60 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignment": "left",
+  "animateLoading": true,
+  "bottomRow": 24,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{consultarEmpresaPorId.data.ativo? 'Ativa' : 'Inativa'}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "start",
+  "isDisabled": false,
+  "isInline": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "28dt3w3pmv",
+  "label": "Status",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 23,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 28,
+  "mobileLeftColumn": 6,
+  "mobileRightColumn": 26,
+  "mobileTopRow": 22,
+  "needsErrorInfo": false,
+  "options": [
+    {
+      "label": "Ativa",
+      "value": "Ativa"
+    },
+    {
+      "label": "Inativa",
+      "value": "Inativa"
+    }
+  ],
+  "originalBottomRow": 24,
+  "originalTopRow": 16,
+  "parentColumnSpace": 9.96875,
+  "parentId": "xauylqypq7",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 34,
+  "topRow": 16,
+  "type": "RADIO_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "1ybt9rucoa",
+  "widgetName": "RadConEmpStatus"
+}

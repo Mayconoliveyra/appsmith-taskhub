@@ -1,0 +1,54 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 15,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "search",
+  "isDisabled": "{{!InputCnpjCpfNovaEmpresa.isValid}}",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "820i6wz7uv",
+  "leftColumn": 56,
+  "minWidth": 50,
+  "mobileBottomRow": 40,
+  "mobileLeftColumn": 8,
+  "mobileRightColumn": 12,
+  "mobileTopRow": 36,
+  "needsErrorInfo": false,
+  "onClick": "{{consultarCliente.consultarCliente('cnpjCpf');}}",
+  "parentColumnSpace": 6.9375,
+  "parentId": "m1dq6uavcy",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 63,
+  "tooltip": "Consulta de cliente na agenda utilizando o CNPJ/CPF",
+  "topRow": 10,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "gg8yzsrj8v",
+  "widgetName": "BtnConsultarClienteCnpjCpf"
+}

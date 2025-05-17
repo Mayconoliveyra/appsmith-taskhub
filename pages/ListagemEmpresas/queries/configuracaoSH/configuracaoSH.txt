@@ -1,0 +1,4 @@
+{
+	"empresa_id": {{TabListagemEmpresas.triggeredRow.id}},
+	"sh_qrcode_url": {{InputUrlQrcodeSH.text}}
+}

@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "67faa44513b8b524c099f316_aa8b258e-056d-44cd-a400-bf86cd87d1dc",
+  "id": "ListagemEmpresas_consultarCliente",
+  "unpublishedCollection": {
+    "name": "consultarCliente",
+    "pageId": "ListagemEmpresas",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

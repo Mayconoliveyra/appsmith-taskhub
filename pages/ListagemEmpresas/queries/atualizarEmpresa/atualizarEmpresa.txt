@@ -1,0 +1,6 @@
+{
+	"nome": {{InpConEmpNome.text}},
+	"cnpj_cpf": {{util.tratarComoNumero(InpConEmpCnpCpf.text)}},
+	"erp": {{RadConEmpErp.selectedOptionValue}},
+	"ativo": {{RadConEmpStatus.selectedOptionValue == 'Ativa' ? true: false}},
+}

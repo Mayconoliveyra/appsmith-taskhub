@@ -1,0 +1,86 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 8,
+  "boxShadow": "none",
+  "defaultText": "{{consultarEmpresaPorId.data.cnpj_cpf||''}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "validation"
+    },
+    {
+      "key": "defaultText"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onTextChanged"
+    },
+    {
+      "key": "onBlur"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTextChanged"
+    },
+    {
+      "key": "onBlur"
+    }
+  ],
+  "errorMessage": "CPF ou CNPJ inválido.",
+  "iconAlign": "left",
+  "inputType": "TEXT",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isSpellCheck": false,
+  "isVisible": true,
+  "key": "sa0wb21ohl",
+  "label": "CNPJ/CPF",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 25,
+  "maxChars": "18",
+  "maxDynamicHeight": 9000,
+  "maxNum": "14",
+  "minDynamicHeight": 4,
+  "minNum": "",
+  "minWidth": 450,
+  "mobileBottomRow": 17,
+  "mobileLeftColumn": 3,
+  "mobileRightColumn": 23,
+  "mobileTopRow": 10,
+  "needsErrorInfo": false,
+  "onBlur": "{{''}}",
+  "onFocus": "{{}}",
+  "onTextChanged": "{{util.aplicarMascara(InpConEmpCnpCpf,util.mascaras.cpfCnpj)}}",
+  "parentColumnSpace": 12.90625,
+  "parentId": "xauylqypq7",
+  "parentRowSpace": 10,
+  "regex": "",
+  "renderMode": "CANVAS",
+  "resetOnSubmit": false,
+  "responsiveBehavior": "fill",
+  "rightColumn": 63,
+  "shouldAllowAutofill": false,
+  "showStepArrows": false,
+  "topRow": 1,
+  "type": "INPUT_WIDGET_V2",
+  "validation": "{{util.tratarComoNumero(InpConEmpCnpCpf.text ).length ==11||util.tratarComoNumero(InpConEmpCnpCpf.text ).length ==14}}",
+  "version": 2,
+  "widgetId": "we3zknfs0u",
+  "widgetName": "InpConEmpCnpCpf"
+}

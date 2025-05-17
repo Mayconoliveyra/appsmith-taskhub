@@ -1,0 +1,138 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0.375rem",
+  "bottomRow": 50,
+  "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+  "buttonVariant": "SECONDARY",
+  "childStylesheet": {
+    "button": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "dynamicBindingPathList": [
+    {
+      "key": "groupButtons.groupButton2.isDisabled"
+    },
+    {
+      "key": "groupButtons.groupButton1.isDisabled"
+    },
+    {
+      "key": "groupButtons.groupButton2lszgw3av1.isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "groupButtons.groupButton2.isDisabled"
+    },
+    {
+      "key": "groupButtons.groupButton1.isDisabled"
+    },
+    {
+      "key": "groupButtons.groupButton2lszgw3av1.isDisabled"
+    },
+    {
+      "key": "groupButtons.groupButton1.onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "groupButtons.groupButton1.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonqmf0ebhedg.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton2lszgw3av1.onClick"
+    }
+  ],
+  "groupButtons": {
+    "groupButton1": {
+      "buttonColor": "#ef4444",
+      "buttonType": "SIMPLE",
+      "disabledWhenInvalid": false,
+      "iconName": "cross",
+      "id": "groupButton1",
+      "index": 1,
+      "isDisabled": "{{TabListagemTarefas?.selectedRow?.te_status === 'PENDENTE' ? false : true}}",
+      "isVisible": true,
+      "label": "Cancelar",
+      "menuItems": {},
+      "onClick": "{{cancelarTarefa.run()\n.then(() => {\n\tlistagemTarefas.run();\n\tlistagemTarefasHistorico.run();\n\n\tshowAlert('Tarefa cancelada com sucesso!', 'success');\n\tmodalFormTarefa.fecharModalFormTarefa('ModSolTarefa'); \n\n}).catch(() => {\n\tshowAlert(cancelarTarefa.data.errors.default || \"Houver um erro inesperado.\", 'error');\n\n});}}",
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButton2": {
+      "buttonColor": "#3b82f6",
+      "buttonType": "SIMPLE",
+      "disabledWhenInvalid": false,
+      "iconName": "social-media",
+      "id": "groupButton2",
+      "index": 2,
+      "isDisabled": "{{TabListagemTarefas?.selectedRow?.te_status === 'CONSULTAR' ? false : true}}",
+      "isVisible": true,
+      "label": "Consultar",
+      "menuItems": {},
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButton2lszgw3av1": {
+      "buttonColor": "#22c55e",
+      "buttonType": "SIMPLE",
+      "iconName": "add",
+      "id": "groupButton2lszgw3av1",
+      "index": 3,
+      "isDisabled": "{{tarefasJS.podeSolicitar()}}",
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "Solicitar",
+      "menuItems": {},
+      "onClick": "{{solicitarTarefa.run().then(() => {\nlistagemTarefas.run();\nlistagemTarefasHistorico.run();\n\t\n  showAlert('Solicitação enviada com sucesso!', 'success');\n  modalFormTarefa.fecharModalFormTarefa('ModSolTarefa');\n}).catch(() => {\n  showAlert(solicitarTarefa.data.errors.default || \"Houve um erro inesperado.\", 'error');\n});}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "ohxna2w7bj"
+    },
+    "groupButtonqmf0ebhedg": {
+      "buttonColor": "#71717a",
+      "buttonType": "SIMPLE",
+      "iconName": "chevron-left",
+      "id": "groupButtonqmf0ebhedg",
+      "index": 0,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "Voltar",
+      "menuItems": {},
+      "onClick": "{{ modalFormTarefa.fecharModalFormTarefa('ModSolTarefa') }}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "88wwv91xfw"
+    }
+  },
+  "isCanvas": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "svljzsxf72",
+  "leftColumn": 0,
+  "minWidth": 450,
+  "mobileBottomRow": 43,
+  "mobileLeftColumn": 17,
+  "mobileRightColumn": 41,
+  "mobileTopRow": 39,
+  "needsErrorInfo": false,
+  "orientation": "horizontal",
+  "originalBottomRow": 52,
+  "originalTopRow": 48,
+  "parentColumnSpace": 12,
+  "parentId": "a9gx3v91k1",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "topRow": 46,
+  "type": "BUTTON_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "5k5it2rqjt",
+  "widgetName": "BtnsModSolTarefaAcoes"
+}

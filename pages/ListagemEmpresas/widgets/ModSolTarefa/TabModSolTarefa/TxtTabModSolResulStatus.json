@@ -1,0 +1,62 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 8,
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "fontFamily"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "text"
+    },
+    {
+      "key": "textColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "textColor"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "0.875rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "f85xnqhyw4",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 8,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 16,
+  "mobileTopRow": 4,
+  "needsErrorInfo": false,
+  "overflow": "NONE",
+  "parentColumnSpace": 11.6875,
+  "parentId": "di7o83agik",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 32,
+  "shouldTruncate": false,
+  "text": "{{TabListagemTarefas.selectedRow.te_status}}",
+  "textAlign": "CENTER",
+  "textColor": "{{ \n  TabListagemTarefas?.selectedRow?.te_status == 'NOVO' ? tarefasJS.StatusCorHex.NOVO : TabListagemTarefas?.selectedRow?.te_status == 'PENDENTE' ? tarefasJS.StatusCorHex.PENDENTE : TabListagemTarefas?.selectedRow?.te_status == 'PROCESSANDO' ? tarefasJS.StatusCorHex.PROCESSANDO :\nTabListagemTarefas?.selectedRow?.te_status == 'FINALIZADO' ? tarefasJS.StatusCorHex.FINALIZADO :\nTabListagemTarefas?.selectedRow?.te_status == 'CONSULTAR' ? tarefasJS.StatusCorHex.CONSULTAR :\nTabListagemTarefas?.selectedRow?.te_status == 'CANCELADA' ? tarefasJS.StatusCorHex.CANCELADA :\nTabListagemTarefas?.selectedRow?.te_status == 'ERRO' ? tarefasJS.StatusCorHex.ERRO :\n  '#000000' // Cor padrão se não bater nenhum status\n}}",
+  "topRow": 4,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "dxwjltlii6",
+  "widgetName": "TxtTabModSolResulStatus"
+}

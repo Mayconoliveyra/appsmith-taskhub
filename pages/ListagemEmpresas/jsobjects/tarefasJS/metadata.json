@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "67faa44513b8b524c099f316_49551c91-3fff-4577-952f-786096d06f35",
+  "id": "ListagemEmpresas_tarefasJS",
+  "unpublishedCollection": {
+    "name": "tarefasJS",
+    "pageId": "ListagemEmpresas",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "StatusCorHex",
+        "value": "{\n  NOVO: '#3AAFF3',\n  PENDENTE: '#FFC107',\n  PROCESSANDO: '#FF9800',\n  FINALIZADO: '#4CAF50',\n  CONSULTAR: '#1976D2',\n  CANCELADA: '#9E9E9E',\n  ERRO: '#F44336'\n}"
+      }
+    ]
+  }
+}

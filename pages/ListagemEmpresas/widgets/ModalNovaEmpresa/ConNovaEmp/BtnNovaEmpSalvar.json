@@ -1,0 +1,57 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 36,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonStyle": "PRIMARY_BUTTON",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": "{{\n!InputRegistroNovaEmpresa.isValid\n|| !InputCnpjCpfNovaEmpresa.isValid \n|| !InputNomeNovaEmpresa.isValid\n|| !!!RadNovaEmpErp.selectedOptionValue}}",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "r2cwlpyq8e",
+  "leftColumn": 46,
+  "minWidth": 120,
+  "mobileBottomRow": 22,
+  "mobileLeftColumn": 47,
+  "mobileRightColumn": 63,
+  "mobileTopRow": 18,
+  "needsErrorInfo": false,
+  "onClick": "{{cadastrarNovaEmpresa.run().then(() => {\n  showAlert('Cadastro realizado com sucesso!', 'success');\n  closeModal(ModalNovaEmpresa.name);\n  listagemEmpresas.run();\n}).catch(() => {\n  showAlert(cadastrarNovaEmpresa.data.errors.default, 'error');\n});}}",
+  "parentId": "m1dq6uavcy",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "text": "Salvar",
+  "topRow": 32,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "37hmzvwh3g",
+  "widgetName": "BtnNovaEmpSalvar"
+}

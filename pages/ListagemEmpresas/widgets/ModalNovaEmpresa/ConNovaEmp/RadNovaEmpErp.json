@@ -1,0 +1,56 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignment": "left",
+  "animateLoading": true,
+  "bottomRow": 30,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "start",
+  "isDisabled": false,
+  "isInline": true,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "28dt3w3pmv",
+  "label": "Sistema",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 28,
+  "mobileLeftColumn": 6,
+  "mobileRightColumn": 26,
+  "mobileTopRow": 22,
+  "needsErrorInfo": false,
+  "options": [
+    {
+      "label": "SOFTSHOP (SELFHOST)",
+      "value": "SOFTSHOP"
+    },
+    {
+      "label": "SOFTCOMSHOP (WEB)",
+      "value": "SOFTCOMSHOP"
+    }
+  ],
+  "parentColumnSpace": 9.96875,
+  "parentId": "m1dq6uavcy",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 27,
+  "topRow": 22,
+  "type": "RADIO_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "mejnhuqx0x",
+  "widgetName": "RadNovaEmpErp"
+}
