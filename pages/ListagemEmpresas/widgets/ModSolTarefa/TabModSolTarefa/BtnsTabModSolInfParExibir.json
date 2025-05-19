@@ -27,6 +27,12 @@
     },
     {
       "key": "groupButtons.groupButtonamx9hikgx9.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonaoqt3dvmcn.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonaoqt3dvmcn.isVisible"
     }
   ],
   "dynamicPropertyPathList": [
@@ -53,6 +59,12 @@
     },
     {
       "key": "groupButtons.groupButtonuc7o6ieazi.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonaoqt3dvmcn.isVisible"
+    },
+    {
+      "key": "groupButtons.groupButtonaoqt3dvmcn.buttonColor"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -100,6 +112,22 @@
       "placement": "CENTER",
       "variant": "filled",
       "widgetId": "az0x90lt78"
+    },
+    "groupButtonaoqt3dvmcn": {
+      "buttonColor": "{{TabListagemTarefas.selectedRow.t_param_api_im? \"#15803d\" : \"#d4d4d8\"}}",
+      "buttonType": "SIMPLE",
+      "iconName": "full-circle",
+      "id": "groupButtonaoqt3dvmcn",
+      "index": 3,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": "{{\nTabListagemTarefas.selectedRow.t_param_api_im === null? false : true\n}}",
+      "itemType": "BUTTON",
+      "label": "API MARKETPLACE",
+      "menuItems": {},
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "b37wxckacw"
     }
   },
   "isCanvas": false,

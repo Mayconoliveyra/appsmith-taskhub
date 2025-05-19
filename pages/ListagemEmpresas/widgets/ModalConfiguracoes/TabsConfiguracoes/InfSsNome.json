@@ -5,7 +5,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 27,
   "boxShadow": "none",
-  "defaultText": "{{consultarEmpresaPorId.data.mc_empresa_nome||''}}",
+  "defaultText": "{{consultarEmpresaPorId.data.ss_empresa_nome||''}}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -41,10 +41,10 @@
   "mobileRightColumn": 20,
   "mobileTopRow": 17,
   "needsErrorInfo": false,
-  "originalBottomRow": 32,
-  "originalTopRow": 25,
+  "originalBottomRow": 21,
+  "originalTopRow": 14,
   "parentColumnSpace": 10.59375,
-  "parentId": "qwm0hq0mfb",
+  "parentId": "1lv3pvpyr2",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
@@ -54,6 +54,6 @@
   "topRow": 20,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
-  "widgetId": "ur6jh3zuwl",
-  "widgetName": "Input4"
+  "widgetId": "wzzcdjxzcd",
+  "widgetName": "InfSsNome"
 }

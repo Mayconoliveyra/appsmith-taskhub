@@ -313,7 +313,7 @@
       "id": "tabo1x3vteqam",
       "index": 4,
       "isDuplicateLabel": false,
-      "isVisible": false,
+      "isVisible": true,
       "label": "API MARKETPLACE",
       "widgetId": "zeydt9z23j"
     },

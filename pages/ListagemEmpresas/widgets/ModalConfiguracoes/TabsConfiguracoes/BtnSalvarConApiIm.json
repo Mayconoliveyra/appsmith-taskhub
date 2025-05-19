@@ -12,11 +12,26 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "isDefaultClickDisabled": true,
-  "isDisabled": false,
+  "isDisabled": "{{!InputConfApiImClientId.isValid|| !InputConfApiImClientSecret.isValid}}",
   "isLoading": false,
   "isVisible": true,
   "key": "zp9gmtgey5",
@@ -27,6 +42,9 @@
   "mobileRightColumn": 52,
   "mobileTopRow": 27,
   "needsErrorInfo": false,
+  "onClick": "{{configuracaoIM.run().then(() => {\n  showAlert('Operação realizada com sucesso!', 'success');\n  consultarEmpresaPorId.run();\n}).catch(() => {\n  showAlert(configuracaoIM.data.errors.default, 'error');\n  consultarEmpresaPorId.run();\n});}}",
+  "originalBottomRow": 41,
+  "originalTopRow": 37,
   "parentColumnSpace": 10.59375,
   "parentId": "zeydt9z23j",
   "parentRowSpace": 10,
@@ -40,6 +58,6 @@
   "topRow": 29,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "0d7se4jhsv",
-  "widgetName": "Button3CopyCopy"
+  "widgetId": "sdiu7hfe7w",
+  "widgetName": "BtnSalvarConApiIm"
 }

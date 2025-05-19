@@ -1,0 +1,5 @@
+{
+	"empresa_id": {{TabListagemEmpresas.triggeredRow.id}},
+	"api_im_client_id": {{InputConfApiImClientId.text}},
+	"api_im_client_secret": {{InputConfApiImClientSecret.text}}
+}

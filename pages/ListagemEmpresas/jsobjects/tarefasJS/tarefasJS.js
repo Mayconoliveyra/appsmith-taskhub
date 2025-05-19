@@ -12,11 +12,15 @@ export default {
 		const status = TabListagemTarefas.selectedRow.te_status;
 		const paramMC = TabListagemTarefas.selectedRow.t_param_mc;
 		const paramSS = TabListagemTarefas.selectedRow.t_param_ss;
+		const paramSH = TabListagemTarefas.selectedRow.t_param_sh;
+		const paramApiIm = TabListagemTarefas.selectedRow.t_param_api_im;
 		const statusBloqueado = ['NOVO', 'CANCELADA', 'ERRO', 'FINALIZADO'].includes(status);
 		const condParamMC = paramMC === null ? true : paramMC;
 		const condParamSS = paramSS === null ? true : paramSS;
+		const condParamSH = paramSH === null ? true : paramSH;
+		const condParamApiIm = paramApiIm === null ? true : paramApiIm;
 
-		return !(statusBloqueado && condParamMC && condParamSS);
+		return !(statusBloqueado && condParamMC && condParamSS && condParamSH && condParamApiIm);
 	},
 	carregarHistorico() {
 		const tabSelect = TabsTarefListagem.selectedTab;
