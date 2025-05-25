@@ -1,0 +1,122 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "additionalStaticProps": [
+    "level",
+    "levelData",
+    "prefixMetaWidgetId",
+    "metaWidgetId"
+  ],
+  "animateLoading": true,
+  "backgroundColor": "{{appsmith.theme.colors.backgroundColor}}",
+  "borderRadius": "0.375rem",
+  "bottomRow": 69,
+  "boxShadow": "none",
+  "children": [
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 480,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dropDisabled": true,
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "flexLayers": [],
+      "isLoading": false,
+      "isVisible": true,
+      "key": "hkhk3t389o",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 400,
+      "minWidth": 450,
+      "mobileBottomRow": 400,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 282.375,
+      "mobileTopRow": 0,
+      "needsErrorInfo": false,
+      "noPad": true,
+      "openParentPropertyPane": true,
+      "parentColumnSpace": 1,
+      "parentId": "m9uaejgroi",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 282.375,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "neu4g1gl78",
+      "widgetName": "Canvas24"
+    }
+  ],
+  "currentItemsView": "{{[]}}",
+  "defaultSelectedItem": "-1",
+  "dynamicBindingPathList": [
+    {
+      "key": "currentItemsView"
+    },
+    {
+      "key": "selectedItemView"
+    },
+    {
+      "key": "triggeredItemView"
+    },
+    {
+      "key": "primaryKeys"
+    },
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "backgroundColor"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enhancements": true,
+  "flexVerticalAlignment": "start",
+  "gridType": "vertical",
+  "hasMetaWidgets": true,
+  "isCanvas": true,
+  "isLoading": false,
+  "isVisible": true,
+  "itemBackgroundColor": "#FFFFFF",
+  "itemSpacing": "16",
+  "key": "jr3ltpnunk",
+  "leftColumn": 0,
+  "listData": "[\n\t\t{\n\t\t\t\"id\": 1,\n\t\t\t\"campo\": \"Servico/Valores/ValorServicos\",\n\t\t\t\"xpath\": \"/nfse:EnviarLoteRpsSincronoEnvio/nfse:LoteRps/nfse:ListaRps/nfse:Rps/nfse:InfDeclaracaoPrestacaoServico/nfse:Servico/nfse:Valores/nfse:ValorServicos\",\n\t\t\t\"tipo\": \"valor incorreto\",\n\t\t\t\"valor_encontrado\": \"262.50\",\n\t\t\t\"valor_esperado\": \"329.00\",\n\t\t\t\"sugestao\": \"Ajuste o valor do campo <ValorServicos> para '329.00', conforme nota autorizada.Ajuste o valor do campo <ValorServicos> para '329.00', conforme nota autorizada.Ajuste o valor do campo <ValorServicos> para '329.00', conforme nota autorizada.Ajuste o valor do campo <ValorServicos> para '329.00', conforme nota autorizada.Ajuste o valor do campo <ValorServicos> para '329.00', conforme nota autorizada.Ajuste o valor do campo <ValorServicos> para '329.00', conforme nota autorizada.\"\n\t\t},\n\t\t{\n\t\t\t\"id\": 2,\n\t\t\t\"campo\": \"Servico/Valores/ValorIss\",\n\t\t\t\"xpath\": \"/nfse:EnviarLoteRpsSincronoEnvio/nfse:LoteRps/nfse:ListaRps/nfse:Rps/nfse:InfDeclaracaoPrestacaoServico/nfse:Servico/nfse:Valores/nfse:ValorIss\",\n\t\t\t\"tipo\": \"valor incorreto\",\n\t\t\t\"valor_encontrado\": \"13.13\",\n\t\t\t\"valor_esperado\": \"16.45\",\n\t\t\t\"sugestao\": \"Ajuste o valor do campo <ValorIss> para '16.45', conforme nota autorizada.\"\n\t\t},\n\t\t{\n\t\t\t\"id\": 3,\n\t\t\t\"campo\": \"Tomador/IdentificacaoTomador/CpfCnpj/Cpf\",\n\t\t\t\"xpath\": \"/nfse:EnviarLoteRpsSincronoEnvio/nfse:LoteRps/nfse:ListaRps/nfse:Rps/nfse:InfDeclaracaoPrestacaoServico/nfse:Tomador/nfse:IdentificacaoTomador/nfse:CpfCnpj/nfse:Cpf\",\n\t\t\t\"tipo\": \"formato inválido\",\n\t\t\t\"valor_encontrado\": \"01603099484\",\n\t\t\t\"valor_esperado\": \"11 dígitos, sem pontos ou traços\",\n\t\t\t\"sugestao\": \"Valide se o CPF informado possui 11 dígitos e corresponde ao formato esperado.\"\n\t\t},\n\t\t{\n\t\t\t\"id\": 4,\n\t\t\t\"campo\": \"Tomador/IdentificacaoTomador/CpfCnpj/Cpf\",\n\t\t\t\"xpath\": \"/nfse:EnviarLoteRpsSincronoEnvio/nfse:LoteRps/nfse:ListaRps/nfse:Rps/nfse:InfDeclaracaoPrestacaoServico/nfse:Tomador/nfse:IdentificacaoTomador/nfse:CpfCnpj/nfse:Cpf\",\n\t\t\t\"tipo\": \"formato inválido\",\n\t\t\t\"valor_encontrado\": \"01603099484\",\n\t\t\t\"valor_esperado\": \"11 dígitos, sem pontos ou traços\",\n\t\t\t\"sugestao\": \"Valide se o CPF informado possui 11 dígitos e corresponde ao formato esperado.\"\n\t\t},\n\t\t{\n\t\t\t\"id\": 5,\n\t\t\t\"campo\": \"Tomador/IdentificacaoTomador/CpfCnpj/Cpf\",\n\t\t\t\"xpath\": \"/nfse:EnviarLoteRpsSincronoEnvio/nfse:LoteRps/nfse:ListaRps/nfse:Rps/nfse:InfDeclaracaoPrestacaoServico/nfse:Tomador/nfse:IdentificacaoTomador/nfse:CpfCnpj/nfse:Cpf\",\n\t\t\t\"tipo\": \"formato inválido\",\n\t\t\t\"valor_encontrado\": \"01603099484\",\n\t\t\t\"valor_esperado\": \"11 dígitos, sem pontos ou traços\",\n\t\t\t\"sugestao\": \"Valide se o CPF informado possui 11 dígitos e corresponde ao formato esperado.\"\n\t\t},\n\t\t{\n\t\t\t\"id\": 6,\n\t\t\t\"campo\": \"Tomador/IdentificacaoTomador/CpfCnpj/Cpf\",\n\t\t\t\"xpath\": \"/nfse:EnviarLoteRpsSincronoEnvio/nfse:LoteRps/nfse:ListaRps/nfse:Rps/nfse:InfDeclaracaoPrestacaoServico/nfse:Tomador/nfse:IdentificacaoTomador/nfse:CpfCnpj/nfse:Cpf\",\n\t\t\t\"tipo\": \"formato inválido\",\n\t\t\t\"valor_encontrado\": \"01603099484\",\n\t\t\t\"valor_esperado\": \"11 dígitos, sem pontos ou traços\",\n\t\t\t\"sugestao\": \"Valide se o CPF informado possui 11 dígitos e corresponde ao formato esperado.\"\n\t\t},\n\t\t{\n\t\t\t\"id\": 7,\n\t\t\t\"campo\": \"Tomador/IdentificacaoTomador/CpfCnpj/Cpf\",\n\t\t\t\"xpath\": \"/nfse:EnviarLoteRpsSincronoEnvio/nfse:LoteRps/nfse:ListaRps/nfse:Rps/nfse:InfDeclaracaoPrestacaoServico/nfse:Tomador/nfse:IdentificacaoTomador/nfse:CpfCnpj/nfse:Cpf\",\n\t\t\t\"tipo\": \"formato inválido\",\n\t\t\t\"valor_encontrado\": \"01603099484\",\n\t\t\t\"valor_esperado\": \"11 dígitos, sem pontos ou traços\",\n\t\t\t\"sugestao\": \"Valide se o CPF informado possui 11 dígitos e corresponde ao formato esperado.\"\n\t\t}\n\t]",
+  "mainCanvasId": "neu4g1gl78",
+  "mainContainerId": "90361d5t3i",
+  "minWidth": 450,
+  "mobileBottomRow": 41,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 18,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "originalBottomRow": 49,
+  "originalTopRow": 20,
+  "pageSize": 2,
+  "parentColumnSpace": 15.6875,
+  "parentId": "ul7pxkmkib",
+  "parentRowSpace": 10,
+  "primaryKeys": "{{List1.listData.map((currentItem, currentIndex) => currentItem[\"id\"] )}}",
+  "renderMode": "CANVAS",
+  "requiresFlatWidgetChildren": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "selectedItemView": "{{{}}}",
+  "templateHeight": 160,
+  "topRow": 21,
+  "triggeredItemView": "{{{}}}",
+  "type": "LIST_WIDGET_V2",
+  "widgetId": "m9uaejgroi",
+  "widgetName": "List1"
+}
