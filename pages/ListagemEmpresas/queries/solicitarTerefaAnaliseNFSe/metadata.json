@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "67faa44513b8b524c099f316_2560c117-28d9-4e7b-bd58-5476c551993f",
-  "id": "ListagemEmpresas_solicitarTarefa",
+  "gitSyncId": "6831cf623013c5147fa471b2_7186f817-b880-4d5b-846f-8890eb49dab6",
+  "id": "ListagemEmpresas_solicitarTerefaAnaliseNFSe",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n\t\"empresa_id\": {{TabListagemTarefas.selectedRow.e_id}},\n\t\"tarefa_id\": {{TabListagemTarefas.selectedRow.t_id}}\n}",
+      "body": "{\n\t\"empresa_id\": {{TabListagemTarefas.selectedRow.e_id}},\n\t\"tarefa_id\": {{TabListagemTarefas.selectedRow.t_id}},\n\t\"param_01\": {{SelectPadraoNFSe.selectedOptionValue}},\n\t\"param_02\": {{InputFileAnaNFSeArqRejei?.files[0]?.data}},\n\t\"param_03\": {{InputFileAnaNFSeArqAuto?.files[0]?.data || ''}},\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
@@ -43,7 +43,7 @@
       }
     ],
     "executeOnLoad": false,
-    "name": "solicitarTarefa",
+    "name": "solicitarTerefaAnaliseNFSe",
     "pageId": "ListagemEmpresas",
     "userSetOnLoad": false
   }

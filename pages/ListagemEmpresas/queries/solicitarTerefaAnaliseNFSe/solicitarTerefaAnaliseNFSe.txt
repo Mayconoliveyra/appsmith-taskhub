@@ -1,0 +1,7 @@
+{
+	"empresa_id": {{TabListagemTarefas.selectedRow.e_id}},
+	"tarefa_id": {{TabListagemTarefas.selectedRow.t_id}},
+	"param_01": {{SelectPadraoNFSe.selectedOptionValue}},
+	"param_02": {{InputFileAnaNFSeArqRejei?.files[0]?.data}},
+	"param_03": {{InputFileAnaNFSeArqAuto?.files[0]?.data || ''}},
+}

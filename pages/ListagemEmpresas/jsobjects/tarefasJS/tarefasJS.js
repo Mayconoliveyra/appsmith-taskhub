@@ -22,16 +22,4 @@ export default {
 
 		return !(statusBloqueado && condParamMC && condParamSS && condParamSH && condParamApiIm);
 	},
-	carregarHistorico() {
-		const tabSelect = TabsTarefListagem.selectedTab;
-		const empresaAtiva = TabListagemEmpresas.selectedRow.ativo === 'Ativa'? true : false;
-
-		if(tabSelect === 'Histórico de Tarefas' && empresaAtiva){
-			console.log('CHAMAAAA',TabsTarefListagem.selectedTab)
-			listagemTarefasHistorico.run().catch(() => {
-				showAlert(listagemTarefasHistorico.data.errors.default || "Houve um erro!", 'error');
-			});
-		}
-
-	}
 }

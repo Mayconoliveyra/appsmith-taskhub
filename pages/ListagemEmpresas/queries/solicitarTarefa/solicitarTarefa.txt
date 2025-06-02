@@ -1,4 +1,4 @@
 {
-    "empresa_id": {{TabListagemTarefas.selectedRow.e_id}},
-    "tarefa_id": {{TabListagemTarefas.selectedRow.t_id}}
+	"empresa_id": {{TabListagemTarefas.selectedRow.e_id}},
+	"tarefa_id": {{TabListagemTarefas.selectedRow.t_id}}
 }

@@ -1,16 +1,18 @@
 {
   "animateLoading": true,
+  "backgroundColor": "#f7fef9",
+  "borderColor": "#d6fbe0",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 724,
+  "borderWidth": "1",
+  "bottomRow": 12,
   "boxShadow": "none",
-  "canEscapeKeyClose": true,
-  "canOutsideClickClose": true,
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 700,
+      "bottomRow": 60,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-      "canExtend": true,
+      "canExtend": false,
+      "containerStyle": "none",
       "detachFromLayout": true,
       "dynamicBindingPathList": [
         {
@@ -22,74 +24,64 @@
       ],
       "dynamicHeight": "AUTO_HEIGHT",
       "flexLayers": [],
-      "isDisabled": false,
       "isLoading": false,
       "isVisible": true,
       "key": "hkhk3t389o",
       "leftColumn": 0,
       "maxDynamicHeight": 9000,
       "minDynamicHeight": 4,
-      "minHeight": 702,
+      "minHeight": 100,
       "minWidth": 450,
-      "mobileBottomRow": 240,
+      "mobileBottomRow": 100,
       "mobileLeftColumn": 0,
-      "mobileRightColumn": 475.5,
+      "mobileRightColumn": 441,
       "mobileTopRow": 0,
       "needsErrorInfo": false,
       "parentColumnSpace": 1,
-      "parentId": "1re5x81ekm",
+      "parentId": "akwzfxo7bs",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
-      "rightColumn": 475.5,
-      "shouldScrollContents": false,
+      "rightColumn": 441,
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "ul7pxkmkib",
-      "widgetName": "Canvas21"
+      "widgetId": "phu1l8648r",
+      "widgetName": "Canvas26CopyCopy"
     }
   ],
-  "detachFromLayout": true,
+  "containerStyle": "card",
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicPropertyPathList": [
-    {
-      "key": "onClose"
-    }
-  ],
-  "dynamicTriggerPathList": [
-    {
-      "key": "onClose"
-    }
-  ],
-  "height": 702,
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "stretch",
   "isCanvas": true,
   "isLoading": false,
-  "key": "ndwhw687e6",
-  "leftColumn": 21,
+  "isVisible": true,
+  "key": "d3xzrkhgxd",
+  "leftColumn": 32,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 10,
-  "mobileBottomRow": 58,
-  "mobileLeftColumn": 21,
-  "mobileRightColumn": 45,
-  "mobileTopRow": 34,
+  "minWidth": 450,
+  "mobileBottomRow": 25,
+  "mobileLeftColumn": 4,
+  "mobileRightColumn": 28,
+  "mobileTopRow": 15,
   "needsErrorInfo": false,
-  "onClose": "{{ modalFormTarefa.fecharModalFormTarefa('ModTarAnaNFSe') \n}}",
-  "parentColumnSpace": 19.8125,
-  "parentId": "0",
+  "parentColumnSpace": 18.375,
+  "parentId": "591hxcy0fe",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
-  "rightColumn": 45,
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
   "shouldScrollContents": false,
-  "topRow": 34,
-  "type": "MODAL_WIDGET",
-  "version": 2,
-  "widgetId": "1re5x81ekm",
-  "widgetName": "ModTarAnaNFSe",
-  "width": 1216
+  "topRow": 6,
+  "type": "CONTAINER_WIDGET",
+  "version": 1,
+  "widgetId": "akwzfxo7bs",
+  "widgetName": "ContEsperado"
 }
